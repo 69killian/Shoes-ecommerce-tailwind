@@ -1,5 +1,5 @@
 import React from 'react'
-import logoshoesea from "../assets/images/logoshoesea.png"; // Assure-toi d'inclure l'extension du fichier
+import logo2 from "../assets/images/logo2.png";
 import { hamburger } from "../assets/icons";
 import { navLinks } from '../constants'
 
@@ -8,7 +8,7 @@ const Nav = () => {
     <header className='px-8 py-8 absolute z-10 w-full'>
         <nav className='flex justify-between items-center max-container'>
             <a href="/">
-                <img src={logoshoesea} alt="Logo" width={130} height={29} />
+                <img src={logo2} alt="Logo" width={130} height={29} />
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (
