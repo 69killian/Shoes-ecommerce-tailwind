@@ -9,7 +9,7 @@ const PopularProductCard = ({imgURL, name, price, noPromoPrice}) => {
     <img className="object-cover z-10 w-[280px]" src={imgURL} alt={name}/>
   </a>
   <div className="mt-4 px-5 pb-5">
-    <a href="#">
+    <a href="/">
       <h5 className="text-xl tracking-tight text-slate-900 font-montserrat">{name}</h5>
     </a>
     <div className="mt-2 mb-5 flex items-center justify-between">
