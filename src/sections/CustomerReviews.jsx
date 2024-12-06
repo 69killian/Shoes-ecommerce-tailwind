@@ -82,7 +82,7 @@ function CustomerReviews() {
   return (
     <>
     <div className="flex justify-center text-center py-6 mb-[-100px]">
-   <h2 className="font-montserrat text-4xl capitalize font-bold lg:max-w-lg">They <span className="text-[#266131]">loved</span> Our Products :
+   <h2 className="font-montserrat text-4xl capitalize font-bold lg:max-w-lg z-10">They <span className="text-[#266131]">loved</span> Our Products :
    </h2>
    </div>
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
