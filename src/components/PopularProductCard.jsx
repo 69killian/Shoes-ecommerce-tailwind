@@ -3,19 +3,19 @@ import { thumbnailBackground, } from '../assets/images'
 
 const PopularProductCard = ({imgURL, name, price, noPromoPrice}) => {
   return (
-    <div class="relative m-10 w-full max-w-xs max-sm:w-full flex flex-1 flex-col overflow-hidden rounded-[3px] bg-white relative rounded-[4px] inline-flex items-center justify-center text-base font-medium text-[#266131] bg-white border border-solid border-[#266131] transition-shadow duration-300 ease-in-out shadow-[4px_4px_0px_#266131] hover:shadow-none">
-  <a class="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
+    <div class="relative m-10 w-full max-w-xs max-sm:w-full flex flex-1 justify-start flex-col overflow-hidden rounded-[3px] bg-white relative rounded-[4px] inline-flex items-center justify-center text-base font-medium text-[#266131] bg-white border border-solid border-[#266131] transition-shadow duration-300 ease-in-out shadow-[4px_4px_0px_#266131] hover:shadow-none">
+  <a className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="/">
     <img className=' absolute z-0 object-cover w-[280px]' src={thumbnailBackground} alt="" />
     <img className="object-cover z-10 w-[280px]" src={imgURL} alt={name}/>
   </a>
-  <div class="mt-4 px-5 pb-5">
+  <div className="mt-4 px-5 pb-5">
     <a href="#">
-      <h5 class="text-xl tracking-tight text-slate-900 font-montserrat">{name}</h5>
+      <h5 className="text-xl tracking-tight text-slate-900 font-montserrat">{name}</h5>
     </a>
-    <div class="mt-2 mb-5 flex items-center justify-between">
+    <div className="mt-2 mb-5 flex items-center justify-between">
       <p>
-        <span class="text-3xl font-bold text-slate-900 font-montserrat">{price}</span>
-        <span class="text-sm text-slate-900 line-through font-montserrat">{noPromoPrice}</span>
+        <span className="text-3xl font-bold text-slate-900 font-montserrat">{price}</span>
+        <span className="text-sm text-slate-900 line-through font-montserrat">{noPromoPrice}</span>
       </p>
       <div className="flex items-center">
             {Array(5)

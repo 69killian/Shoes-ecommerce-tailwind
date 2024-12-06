@@ -1,8 +1,27 @@
+import Button  from "../components/Button.jsx"
 import React from "react"
+import { shoe8 } from "../assets/images"
 
 const SuperQuality = () => {
   return (
-    <div>SuperQuality</div>
+    <section id="about-us" className="flex justify-between item-center max-lg:flex-col gap-10 w-full max-container">
+        <div className="flex flex-1 flex-col">
+        <h2 className="font-montserrat text-4xl capitalize font-bold lg:max-w-lg">We provide you <span className="text-[#266131]">Super</span> <span className="text-[#266131]">Quality</span> Shoes
+        </h2>
+        <p className="mt-4 lg:max-w-lg info-text">
+            Ensuring premium comfort and style, our meticulously crafted mocassin is designed to eleveta your experience, providing you with unmatched quelity, innovation, and a touch of elegance.
+        </p>
+        <p className="mt-6 lg:max-w-lg info-text ">
+            Our dedication to detail and excellence ensures your satisfaction.
+        </p>
+        <div className="mt-11">
+        <Button label="View Details >" />
+        </div>
+        </div>
+        <div className="flex-1 flex justify-center items-center">
+            <img className="rounded-[25px]" src={shoe8} alt="shoe8" width={570} height={522} />
+        </div>
+    </section>
   )
 }
 
