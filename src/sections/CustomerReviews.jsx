@@ -103,4 +103,4 @@ function CustomerReviews() {
   );
 }
 
-export default CustomerReviews;  // <-- Ajoutez l'export par défaut ici
+export default CustomerReviews; 
