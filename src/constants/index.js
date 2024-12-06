@@ -94,12 +94,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Classic Black Moccasins", link: "/" },
+            { name: "Casual Beige Moccasins", link: "/" },
+            { name: "Elegant Black Moccasins", link: "/" },
+            { name: "Elegant Blue Moccasins", link: "/" },
+            { name: "Mocassins", link: "/" },
+            { name: "sports Mocassins", link: "/" },
         ],
     },
     {
@@ -115,8 +115,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@shoesea.com", link: "mailto:customer@shoesea.com" },
+            { name: "+7897894225", link: "tel:+7897894225" },
         ],
     },
 ];
