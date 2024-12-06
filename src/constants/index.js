@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -31,24 +31,28 @@ export const statistics = [
 
 export const products = [
     {
+        imgURL: bigShoe1,
+        name: "Classic Black Moccasins",
+        price: "$89.99",
+        noPromoPrice: "105.99"
+    },
+    {
+        imgURL: bigShoe2,
+        name: "Casual Beige Moccasins",
+        price: "$74.99",
+        noPromoPrice: "87.99"
+    },
+    {
+        imgURL: bigShoe3,
+        name: "Elegant Black Moccasins",
+        price: "$99.99",
+        noPromoPrice: "117.99"
+    },
+    {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
-    },
-    {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-    },
-    {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-    },
-    {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        name: "Elegant Blue Moccasins",
+        price: "$70.20",
+        noPromoPrice: "84.99"
     },
 ];
 

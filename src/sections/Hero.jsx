@@ -72,7 +72,7 @@ const Hero = () => {
     <section id="home" className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container">
       <div className="relative xl:w-2/5 flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-[#266131]">Our Winter collections</p>
-        <h1 className="mt-10 font-montserrat text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
+        <h1 className="mt-10 font-montserrat text-8xl extra-small:leading-[1]  max-sm:text-[72px] max-sm:leading-[82] font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10">The New Arrival</span>
           <br />
           <span className="text-[#266131] inline-block mt-3">Shoesea</span> Shoes
@@ -94,7 +94,7 @@ const Hero = () => {
       </div>
 
       {/* Deuxième colonne - Image et sélection de chaussures */}
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary  bg-cover bg-center">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary z-0 bg-cover bg-center">
         <img
           src={mainImage}
           alt="shoe collection"
