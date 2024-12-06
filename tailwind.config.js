@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   
+  
   theme: {
     fontSize: {
       xs: ['12px', '16px'],

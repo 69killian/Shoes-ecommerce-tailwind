@@ -21,7 +21,7 @@ export default function App() {
         <section className="padding">
           <SpecialOffer />
         </section>
-        <section className="bg-pale-blue padding">
+        <section className="bg-pale-blue py-50">
           <CustomerReviews />
         </section>
         <section className="padding-x sm:py-32 py-16 w-full">
