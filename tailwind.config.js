@@ -39,7 +39,7 @@ export default {
       },
       screens: {
         "wide": "1440px",
-        "extra-small" : "400px"
+        "extra-small" : "300px"
       }
     },
   },
