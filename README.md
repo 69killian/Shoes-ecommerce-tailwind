@@ -2,7 +2,7 @@
 
 ![Capture d'écran du projet](screen.png)
 
-![Lien du site🔗](https://shoes-ecommerce-tailwind.vercel.app)
+[![Lien du site déployé]()](https://shoes-ecommerce-tailwind.vercel.app)
 
 ## Description ✍🏻
 
@@ -32,7 +32,7 @@ L'objectif de cette page était de mettre en avant une gamme de chaussures avec 
 
 ![Project Screenshot](screen.png)
 
-![Site Link🔗](https://shoes-ecommerce-tailwind.vercel.app)
+[![Link to the Deployed site]()](https://shoes-ecommerce-tailwind.vercel.app)
 
 ## Description ✍🏻
 
