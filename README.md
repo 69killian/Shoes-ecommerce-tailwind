@@ -17,7 +17,7 @@ L'objectif de cette page était de mettre en avant une gamme de chaussures avec 
 
 - **Page de présentation des produits** : Affichage des chaussures avec une mise en page claire et responsive
 - **Responsive Design** : Adaptation de l'interface sur différents appareils grâce à Tailwind
-- **Performance améliorée** : Grâce à l'utilisation de Tailwind, mes processus de stylisme et de développement vont accélérer
+- **Performance améliorée** : Grâce à l'utilisation de Tailwind, mes processus de design et de développement vont accélérer
 - **Composants réutilisables** : Utilisation de React pour assurer une structure modulaire et flexible sur mon projet
 
 ## Les Technos que j'ai utilisé </>
